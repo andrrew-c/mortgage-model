@@ -1,0 +1,7 @@
+XLODBC
+1
+DSN=SQLite3 Datasource;Database=C:\Users\andre\Dropbox\Python\BuyToLetMortgage\mortgages_btl.db;StepAPI=0;SyncPragma=NORMAL;NoTXN=0;Timeout=100000;ShortNames=0;LongNames=0;NoCreat=0;NoWCHAR=0;FKSupport=0;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0;
+SELECT *, CASE WHEN A.ArrangementFeeString = "£0.00" THEN "NoFee" ELSE "Fee" END FeeNoFee FROM MORTGAGE A INNER JOIN (SELECT DISTINCT mortgage_0.timestamp  FROM mortgage mortgage_0 GROUP BY mortgage_0.timestamp) AS B  on     A.timestamp = B.timestamp
+
+
+LenderName	RateType	Id	Categories	BuyToLetSummary	ProductName	ArrangementFeeString	InitialRate	FormattedInitialRate	InitialPeriod	InitialPeriodDisplayText	HasNoInitialPeriod	Apr	Aprc	RepresentativeExample	FormattedAprc	IsDirect	IsCommercial	ApplyLink	MonthlyPayment	ImageId	ImageUrl	HasEarlyRepaymentCharge	EarlyRepaymentCharge	FeedProductId	OngoingRate	CallProviderDirect	CallProviderDirectPhoneNumber	CallProviderDirectTimes	FormattedOngoingRate	MonthlyPaymentString	timestamp	timestamp FeeNoFee

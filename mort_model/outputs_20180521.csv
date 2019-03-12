@@ -1,0 +1,5 @@
+,Index,Lender name,Rate type,Initial rate,Initial Period,Ongoing rate,Ending Loan,Interest Paid,Capital Paid,Overpayments,Fee,Total costs (excl. capital),,Diff,
+0,2,BM Solutions,Fixed,2.58,60,4.84,68138.33334,10856.32656,30861.66666,18000,295,11151.32656,,,
+0,0,BM Solutions,Fixed,2.58,60,4.84,87328.92753,12046.92075,11671.07247,0,295,12341.92075,," £1,191 ",6%
+0,3,The Mortgage Works,Fixed,2.74,60,4.49,374464.9893,56324.01112,70535.0107,18000,995,57319.01112,,,
+0,1,The Mortgage Works,Fixed,2.74,60,4.49,393732.7492,57591.77104,51267.25078,0,995,58586.77104,," £1,268 ",
